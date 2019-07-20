@@ -1,3 +1,4 @@
+.tox/
 .nox/
 __pycache__/
 .python-version
