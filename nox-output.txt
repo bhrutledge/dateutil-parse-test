@@ -1,0 +1,55 @@
+Running session test-3.6(dateutil='2.6.1')
+Re-using existing virtualenv at .nox/test-3-6-dateutil-2-6-1.
+pip install python-dateutil==2.6.1 pytest
+pytest --quiet --tb=line
+F                                                                        [100%]
+=================================== FAILURES ===================================
+/Users/brian/Code/dateutil-parse-test/.nox/test-3-6-dateutil-2-6-1/lib/python3.6/site-packages/dateutil/parser.py:559: ValueError: Unknown string format
+1 failed in 0.10 seconds
+Command pytest --quiet --tb=line failed with exit code 1
+Session test-3.6(dateutil='2.6.1') failed.
+Running session test-3.6(dateutil='2.7.5')
+Re-using existing virtualenv at .nox/test-3-6-dateutil-2-7-5.
+pip install python-dateutil==2.7.5 pytest
+pytest --quiet --tb=line
+.                                                                        [100%]
+1 passed in 0.02 seconds
+Session test-3.6(dateutil='2.7.5') was successful.
+Running session test-3.6(dateutil='2.8.0')
+Re-using existing virtualenv at .nox/test-3-6-dateutil-2-8-0.
+pip install python-dateutil==2.8.0 pytest
+pytest --quiet --tb=line
+.                                                                        [100%]
+1 passed in 0.02 seconds
+Session test-3.6(dateutil='2.8.0') was successful.
+Running session test-3.7(dateutil='2.6.1')
+Re-using existing virtualenv at .nox/test-3-7-dateutil-2-6-1.
+pip install python-dateutil==2.6.1 pytest
+pytest --quiet --tb=line
+F                                                                        [100%]
+=================================== FAILURES ===================================
+/Users/brian/Code/dateutil-parse-test/.nox/test-3-7-dateutil-2-6-1/lib/python3.7/site-packages/dateutil/parser.py:559: ValueError: Unknown string format
+1 failed in 0.10 seconds
+Command pytest --quiet --tb=line failed with exit code 1
+Session test-3.7(dateutil='2.6.1') failed.
+Running session test-3.7(dateutil='2.7.5')
+Re-using existing virtualenv at .nox/test-3-7-dateutil-2-7-5.
+pip install python-dateutil==2.7.5 pytest
+pytest --quiet --tb=line
+.                                                                        [100%]
+1 passed in 0.02 seconds
+Session test-3.7(dateutil='2.7.5') was successful.
+Running session test-3.7(dateutil='2.8.0')
+Re-using existing virtualenv at .nox/test-3-7-dateutil-2-8-0.
+pip install python-dateutil==2.8.0 pytest
+pytest --quiet --tb=line
+.                                                                        [100%]
+1 passed in 0.02 seconds
+Session test-3.7(dateutil='2.8.0') was successful.
+Ran multiple sessions:
+* test-3.6(dateutil='2.6.1'): failed
+* test-3.6(dateutil='2.7.5'): success
+* test-3.6(dateutil='2.8.0'): success
+* test-3.7(dateutil='2.6.1'): failed
+* test-3.7(dateutil='2.7.5'): success
+* test-3.7(dateutil='2.8.0'): success
